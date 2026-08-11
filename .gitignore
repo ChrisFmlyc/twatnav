@@ -2,9 +2,7 @@
 *.log
 .env
 
-# Source photo — HEIC doesn't render in browsers, keep it local
+# Source photo — HEIC doesn't render in browsers, keep it local.
+# assets/hero.jpg is generated from it via:
+#   sips -s format jpeg -s formatOptions 80 -Z 1400 teatnavimg.heic --out assets/hero.jpg
 *.heic
-
-# Hero photo held back from publishing pending consent/age confirmation.
-# Delete this line to publish it.
-assets/hero.jpg
