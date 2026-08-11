@@ -1,0 +1,10 @@
+.DS_Store
+*.log
+.env
+
+# Source photo — HEIC doesn't render in browsers, keep it local
+*.heic
+
+# Hero photo held back from publishing pending consent/age confirmation.
+# Delete this line to publish it.
+assets/hero.jpg

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://twatnav.com/sitemap.xml
