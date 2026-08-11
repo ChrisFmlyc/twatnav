@@ -84,7 +84,9 @@ a{ color:inherit; }
   font-size:1.5rem; font-weight:900; letter-spacing:-.02em;
   text-decoration:none;
 }
-.wordmark em{ font-style:italic; font-weight:600; color:var(--coral); }
+/* italic Fraunces carries a wide left side bearing — pull it back
+   so the wordmark reads as one compound, not "Twat Nav" */
+.wordmark em{ font-style:italic; font-weight:600; color:var(--coral); margin-left:-.09em; }
 .wordmark .pin{ width:1.05em; height:1.05em; fill:var(--coral); }
 .wordmark .pin-dot{ fill:var(--ink); }
 
